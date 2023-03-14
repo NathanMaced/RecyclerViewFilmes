@@ -9,7 +9,7 @@
         android:id="@+id/idImagemFilmes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@color/black" />
+        android:src="@drawable/coringa" />
 
     <TextView
         android:id="@+id/idTituloFilmes"
