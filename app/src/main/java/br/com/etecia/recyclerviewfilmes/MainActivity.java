@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         //criando a base de dados para carregamento da lista de filmes
 
-
+        listaFilmes = new ArrayList<>();
 
         //instanciando a classe adaptadora e passando os parâmetros
         MyAdapter adapter = new MyAdapter(getApplicationContext(),);
