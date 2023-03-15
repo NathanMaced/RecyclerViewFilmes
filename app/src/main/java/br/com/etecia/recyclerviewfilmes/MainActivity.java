@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         );
 
         //instanciando a classe adaptadora e passando os parâmetros
-        MyAdapter adapter = new MyAdapter(getApplicationContext(), );
+        MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
     }
 }
