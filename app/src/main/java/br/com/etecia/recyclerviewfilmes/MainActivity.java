@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         listaFilmes = new ArrayList<>();
 
+        listaFilmes.add(
+                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.coringa)
+        );
+
         //instanciando a classe adaptadora e passando os parâmetros
-        MyAdapter adapter = new MyAdapter(getApplicationContext(),);
+        MyAdapter adapter = new MyAdapter(getApplicationContext(), );
     }
 }
