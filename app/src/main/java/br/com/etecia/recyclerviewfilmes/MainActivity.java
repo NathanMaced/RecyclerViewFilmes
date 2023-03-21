@@ -30,6 +30,21 @@ public class MainActivity extends AppCompatActivity {
         listaFilmes.add(
                 new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.coringa)
         );
+        listaFilmes.add(
+                new Filmes("Carros", "Filme do carros", "Animação", R.drawable.carros)
+        );
+        listaFilmes.add(
+                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.dragonball)
+        );
+        listaFilmes.add(
+                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.doutorestranho)
+        );
+        listaFilmes.add(
+                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.superonze)
+        );
+        listaFilmes.add(
+                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.pokemon)
+        );
 
         //instanciando a classe adaptadora e passando os parâmetros
         MyAdapter adapter = new MyAdapter(getApplicationContext(), listaFilmes);
