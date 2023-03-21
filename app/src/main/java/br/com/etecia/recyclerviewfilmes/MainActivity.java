@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         listaFilmes = new ArrayList<>();
 
         listaFilmes.add(
-                new Filmes("Coringa", "Filme do coringa", "Ação", R.drawable.coringa)
+                new Filmes("Coringa", "O longa-metragem de drama e suspense narra as origens do famoso vilão, em 122 minutos arrepiantes, repletos de reflexões psicológicas e sociais. Passado em Gotham, no começo da década de 80, o enredo conta a história de Arthur Fleck, um homem pobre e com problemas mentais que trabalha como palhaço.", "Suspense", R.drawable.coringa)
         );
         listaFilmes.add(
-                new Filmes("Carros", "Filme do carros", "Animação", R.drawable.carros)
+                new Filmes("Carros", "Filme do carros", "Comedia", R.drawable.carros)
         );
         listaFilmes.add(
                 new Filmes("Dragon Ball Z", "Anime do Goku", "Ação", R.drawable.dragonball)
