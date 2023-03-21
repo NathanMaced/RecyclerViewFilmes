@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Coringa"
         android:textColor="@color/black"
         android:textSize="30dp"
@@ -27,25 +28,44 @@
         android:scaleType="centerInside"
         android:src="@drawable/coringa" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Categoria:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/mCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10sp"
+            android:text="Drama"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/mDescricaoFilme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Coringa"
+        android:text="Descrição"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/mCategoriaFilme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
-        android:text="Coringa"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        android:textStyle="italic" />
 
 </LinearLayout>
