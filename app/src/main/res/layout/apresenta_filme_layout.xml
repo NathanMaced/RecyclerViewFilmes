@@ -7,15 +7,45 @@
     android:orientation="vertical"
     tools:context=".ApresentaFIlmeActivity">
 
+
     <TextView
         android:id="@+id/mTituloFilme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo do filme" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Coringa"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
     <ImageView
+        android:id="@+id/mImagemFilme"
+        android:layout_width="200dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/coringa" />
+
+    <TextView
+        android:id="@+id/mDescricaoFilme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/dragonball"
-        android:id="@+id/mImagemFilme"/>
+        android:layout_gravity="center_horizontal"
+        android:text="Coringa"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/mCategoriaFilme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="Coringa"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
 
 </LinearLayout>
