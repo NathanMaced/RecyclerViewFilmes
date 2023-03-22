@@ -40,7 +40,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.idTituloFilmes.setText(listaFilmes.get(position).getTitulo());
-        holder.idImagemFilmes.setImageResource(listaFilmes.get(position).getImagem()); ;
+        holder.idImagemFilmes.setImageResource(listaFilmes.get(position).getImagem());
+
+        holder.idCardFilmes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     @Override
