@@ -67,5 +67,13 @@
         android:textSize="15dp"
         android:textStyle="italic" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        style="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnVoltar"/>
+
 
 </LinearLayout>
