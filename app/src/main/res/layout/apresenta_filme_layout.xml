@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".ApresentaFIlmeActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_arrow_back"
+        android:id="@+id/toolBar"/>
+
 
     <TextView
         android:id="@+id/mTituloFilme"
@@ -68,12 +74,12 @@
         android:textStyle="italic" />
 
     <Button
+        android:id="@+id/btnVoltar"
+        style="@style/Theme.AppCompat.Light.DarkActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voltar"
-        style="@style/Theme.AppCompat.Light.DarkActionBar"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/btnVoltar"/>
+        android:text="Voltar" />
 
 
 </LinearLayout>
