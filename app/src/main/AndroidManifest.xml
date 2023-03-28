@@ -15,7 +15,7 @@
         <activity
             android:name=".ApresentaFIlmeActivity"
             android:exported="false"
-            android:theme="@style/temaSemBarra"/>
+            android:theme="@style/temaSemBarra" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
